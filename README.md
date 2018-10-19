@@ -13,7 +13,7 @@
 -   Container Basics
 -   Container Architecture
 -   Container Command Line
--   Container API 
+-   Container Dashboard 
 -   Container Local Set Up
 -   Container Production Set Up
 -   Container Storage
