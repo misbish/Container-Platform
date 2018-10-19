@@ -24,6 +24,7 @@
 -   Container Sample App
 -   Container High Availability 
 -   Container Load Balancing
+-   Container Service Discovery
 -   Container Roll out & Roll Back
 -   Container Stateful Applications
 -   Container Stateless Applications 
