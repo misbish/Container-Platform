@@ -1,4 +1,4 @@
-#Container
+**Docker Container**
 
 
     Create an empty directory 
@@ -123,3 +123,7 @@ https://docs.docker.com/engine/reference/builder/#environment-replacement
     - Must start with FROM Keyword
     - There must be only 1 CMD 
     - Unlike RUN , CMD does not create additional layer .
+    
+DockerFile Execution Process (#TODO)
+
+    Need to know how the layers created

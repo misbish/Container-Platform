@@ -1,4 +1,4 @@
-#Getting Started with Docker
+**Getting Started with Docker**
 
     What is a Container & Image 
     
