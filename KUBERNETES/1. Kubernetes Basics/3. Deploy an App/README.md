@@ -35,6 +35,13 @@
     NAME                  DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
     kubernetes-bootcamp   1         1         1            1           2m
     
+    The DESIRED state is showing the configured number of replicas
+    
+    The CURRENT state show how many replicas are running now
+    
+    The UP-TO-DATE is the number of replicas that were updated to match the desired (configured) state
+    
+    The AVAILABLE state shows how many replicas are actually AVAILABLE to the users
     
 At this point the application is running in docker container , inside a pod .
 How to access the app / View the app ? 

@@ -9,3 +9,6 @@ Kubernetes Deployment Controller
 Pods
 Node
 Pods with single / multiple container
+Service
+Label
+Selector
