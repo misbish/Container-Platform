@@ -127,4 +127,9 @@ https://docs.docker.com/engine/reference/builder/#environment-replacement
     
 DockerFile Execution Process (#TODO)
 
-    Need to know how the layers created
+    1. Need to know how the layers created
+    2. Where the images are stored 
+    3. Internal of the image
+    4. Private Registry
+    5. WORKDIR where created  
+    
