@@ -35,7 +35,7 @@
 
 `2. Build the app`
 
-           docker build -t helloflask .
+           docker build -t helloflask .        # -t for --tag
            
            NOTE: helloflask must be lowercase
            
@@ -48,6 +48,7 @@
            
            docker image ls -a                         # List all images on this machine
            docker image rm <image id>                 # Remove specified image from this machine
+           docker image rm -f <image id>              # Remove specified image from this machine forcefully 
            docker image rm $(docker image ls -a -q)   # Remove all images from this machine
            
            
