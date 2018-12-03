@@ -130,6 +130,7 @@ https://kubernetes.io/docs/tasks/tools/install-minikube/
     
     - To be able to work with the docker daemon on your mac/linux host use the docker-env command in your shell:
           $ eval $(minikube docker-env)
+          @FOR /f "tokens=*" %i IN ('minikube docker-env') DO @%i
     - You should now be able to use docker on the command line on your host mac/linux machine talking to the docker daemon inside the minikube VM:
           $ docker ps
 

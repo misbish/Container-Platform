@@ -1,5 +1,10 @@
 **Docker Command Line**
 
+    docker system prune 
+    docker system df 
+    docker system --help 
+    
+
     docker --version    # display docker version
     docker version      # display version with more info
     docker info         # same as docker version
