@@ -2,7 +2,6 @@
 
 -   Docker
 -   Kubernetes
--   DCOS
 
 
 
