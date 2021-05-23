@@ -1,71 +1,71 @@
 #DOCKER
 
-    01.  Docker Set Up
     
-           1.   Docker Local Set Up
-                    1.   Docker Tool Box
-                    2.   Docker for Linux
-                    3.   Docker for AWS
-           2.   Docker Production Set Up   
-           
-    02.  Docker Basics
+    **************************************
     
-           1.   What is Docker 
-           2.   Orientation 
-           3.   Containers
-           4.   Services
-           5.   Swarms
-           6.   Stacks
-           7.   Deploy your App
-           8.   Scale You App
-           9.   Rollout a New version 
-           
-    03.  Docker Hello World
+    1.  COMPUTE
+    2.  STORAGE
+    3.  DATABASE
+    4.  NETWORKING
     
-    04.  Docker Architecture
+    5.  DEVELOPMENT
+    6.  MANAGEMENT 
+    7.  SET UP 
+    8.  CLUSTER ADMINISTRATION
     
-    05.  Docker Compose
+    9.  SECURITY
+    10.  ARCHITECTURE 
     
-    06.  Docker Swarm
+    ************************************
     
-    07.  Docker Logging 
-    
-    08.  Docker Debuugig
-    
-    09.  Docker Clean up
-    
-    10.  Docker Storage  
-    
-    11.  Docker Network 
-    
-    12.  Docker for Developers
-    
-    13.  Docker Sample App 
-    
-    14.  Docker Private Registry 
-    
-    15.  Docker Security 
-    
-    16.  Docker Monitoring 
-    
-    17.  Docker Reference
-          
-           1.   Dockerfile 
-           2.   Compose file
-           
-    18.  Commad Line Reference
-    
-           1.   Docker CLI (docker)
-           2.   Docker Daemon CLI (dockerd)
-           3.   Machine CLI (docker-machine) 
-           4.   Compose CLI (docker-machine)
-           
-           
-Question : 
+COMPUTE:
 
-    1.  How to Create Dockerfile , Its Execution Process 
-    2.  Versioning of docker w.r.t your application 
-    3.  Intellij with Docker 
-    4.  Docker GUI 
-    5.  How Load balancing & Scaling Happens 
+    1.   Docker run
+    2.   Docker Compose
+    3.   Docker Service
+    4.   Docker Swarm
     
+    5.   Dockerfile Reference 
+    6.   Docker Compose Reference
+    
+STORAGE:
+
+    1.   Default Storage Option
+    
+    2.   Volume ( Recommended )  
+    3.   Bind Mount
+    4.   Tmpfs Mount 
+    
+    5.   Storage Driver
+    6.   Volume Driver
+    
+    
+DATABASE:
+
+NETWORKING:
+
+DEVELOPMENT:
+
+MANAGEMENT:
+
+SETUP:
+
+    1.   Docker Local Set Up
+            1.   Docker Tool Box
+            2.   Docker for Linux
+            3.   Docker for AWS
+    2.   Docker Production Set Up 
+
+CUSTER ADMINISTRATION:
+
+SECURITY:
+
+ARCHITECTURE: 
+           
+Command Line Reference
+    
+    1.   Docker CLI (docker)
+    2.   Docker Daemon CLI (dockerd)
+    3.   Machine CLI (docker-machine) 
+    4.   Compose CLI (docker-machine)
+           

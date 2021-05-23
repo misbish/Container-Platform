@@ -1,12 +1,32 @@
 **DOCKER SWARM**
 
-    “Dockerized” cluster called a swarm.
+What is Swarm 
+
+    -   Cluster of docker engine is called swarm.
     
+    -   “Dockerized” cluster called a swarm.
     
+    -   A swarm consists of multiple Docker hosts which run in swarm mode and act as managers 
+        (to manage membership and delegation) and workers (which run swarm services).
     
-    - A swarm is a group of machines that are running Docker and joined into a cluster.
+NOTE :
+
+    -   A given Docker host can be a manager, a worker, or perform both roles
+    
+    -   Docker daemons can participate in a swarm as managers, workers, or both.
+    
+    -   If you are using a Docker version prior to 1.12.0, you can use standalone swarm
+     
+    -   Current versions of Docker include swarm mode for managing swarm
+    
+    -   Use the Docker CLI to create a swarm,
+                           to deploy application services to a swarm,
+                           and manage swarm behavior.
+
     - The machines in a swarm can be physical or virtual.
+    
     - All docker commands are executed on a cluster by a swarm manager. 
+    
     - After joining a swarm, machines are referred to as nodes.
     
     
@@ -15,7 +35,37 @@
          “global”, which ensures that each machine gets exactly one instance of the specified container.
           You instruct the swarm manager to use these strategies in the Compose file.
           
-          
+Benefit of swarm services vs standalone containers
+
+     -  You can modify a service’s configuration, including the networks and volumes it is connected to,
+        without the need to manually restart the service. 
+        Docker will update the configuration, stop the service tasks, and create new ones matching the desired configuration.
+     
+     -  Standalone Container can be started on any daemon whereas swarm manager can only manages the swarm
+     
+NOTE :
+
+    -   When Docker is running in swarm mode, you can still run standalone containers on any of the 
+        Docker hosts participating in the swarm.
+         
+Nodes:
+    
+    -   A node is an instance of the Docker engine participating in the swarm.
+        - manager node
+        - worker node
+    
+    -   To deploy your application to a swarm, you submit a service definition to a manager node.
+    
+        The manager node dispatches units of work called tasks to worker nodes.
+        
+        Worker nodes receive and execute tasks dispatched from manager nodes
+        
+NOTE:
+
+    -   By default manager nodes also run services as worker nodes,
+        but you can configure them to run exclusively manager tasks
+        
+         
 `1. Set up Swarm` 
 
     docker swarm init    #Enable swarm mode and make your current machine a swarm manager 
@@ -61,7 +111,24 @@
     
     docker stack deploy --with-registry-auth -c docker-compose.yml getstartedlab
     
-    
+Services and tasks
+ 
+Load Balancing
+
+
+
+
+
+Explore swarm mode CLI commands
+swarm init
+swarm join
+service create
+service inspect
+service ls
+service rm
+service scale
+service ps
+service update    
     
 Commands :
 

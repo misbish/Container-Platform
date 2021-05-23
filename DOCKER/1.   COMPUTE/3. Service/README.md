@@ -58,4 +58,3 @@
     docker swarm leave --force                  # Take down a single node swarm from the manager  
     
     
-#docker-compose.yml reference (#TODO)
