@@ -1,4 +1,4 @@
-#KUBERNETES CONCEPTS
+#KUBERNETES COMPUTE
 
     1. Overview 
            ( In K8S , we use kubectl commandline , which call the K8S API  to interact with cluster.
